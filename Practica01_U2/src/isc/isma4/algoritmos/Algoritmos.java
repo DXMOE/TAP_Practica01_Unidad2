@@ -9,6 +9,6 @@ package isc.isma4.algoritmos;
  *
  * @author DXMOE1
  */
-public class Algoritmos {
+public abstract class Algoritmos implements IAlgoritmos {
     
 }

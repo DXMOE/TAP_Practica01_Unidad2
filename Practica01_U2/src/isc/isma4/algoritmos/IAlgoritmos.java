@@ -10,5 +10,5 @@ package isc.isma4.algoritmos;
  * @author DXMOE1
  */
 public interface IAlgoritmos {
-    
+    int[] getOrdenar(int[] n);
 }

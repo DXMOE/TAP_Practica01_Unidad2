@@ -10,17 +10,17 @@ package isc.isma4.figuras;
  * @author DXMOE1
  */
 public class Rombo extends Figura {
-    double a;
-    double b;
-    double h;
-    public Rombo (double a, double b, double h){
-    this.a = a;
-    this.b = b;
-    this.h = h;
+    double D;
+    double d;
+    
+    public Rombo (double D, double d){
+    this.D = D;
+    this.d = d;
+    
     }
     @Override
     public double getArea(){
-        return h*(a*b)/h;
+        return (D*d)/2;
     }
             
 }
